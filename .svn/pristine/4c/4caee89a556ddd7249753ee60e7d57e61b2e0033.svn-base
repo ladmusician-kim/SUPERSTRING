@@ -1,0 +1,88 @@
+﻿@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+@section Script {
+    <script type="text/javascript">
+        console.log($($('.superstring-menu-home ')[0]));
+        $($('.superstring-menu-home ')[0]).attr("class", "superstring-menu-home");
+        $($('.superstring-menu-h')[0]).attr("class", "superstring-menu-h");
+        $($('.superstring-menu-hotdiamond')[0]).attr("class", "superstring-menu-hotdiamond");
+        $($('.superstring-menu-ce')[0]).attr("class", "superstring-menu-ce active");
+        $($('.superstring-menu-contact')[0]).attr("class", "superstring-menu-contact");
+    </script>
+}
+
+<!-- full screen home -->
+<div class="home-section fullwidth-slider owl-carousel bg-dark">
+    <section class="home-section fixed-height-medium bg-scroll" data-background="/Lib/superstring/images/superstring/bg_ce.png">
+        <div class="js-height-parent" id="ce">
+            <div class="home-content container">
+                <div class="home-text superstring-main-fullwidth" style="padding-top: 163px;">
+                    <div class="row align-center">
+                        <div class="col-sm-12 align-center">
+                            <div class="align-center animate-init" data-anim-type="fade-in-up" data-anim-delay="200">
+                                <div class="hs-line-7 mb-0 superstring_main_header superstring-lato-bold">
+                                    CE
+                                </div>
+                                <div class="hs-line-10 transparent mb-40 mb-xs-20">
+                                    <p class="superstring-web superstring_p superstring-noto-light" style="text-transform:none !important; margin-bottom: 2px !important;">
+                                        "Creative Education"분야는 은석훈 대표가 슈퍼스트링 창립전부터 운영해오던 사업분야입니다.
+                                    </p>
+                                    <p class="superstring-web superstring_p superstring-noto-light" style="text-transform:none !important; margin-bottom: 2px !important;">
+                                        선진국에서 일어나고 있는 교육 패러다임 전환이 국내로 들어와
+                                    </p>
+                                    <p class="superstring-web superstring_p superstring-noto-light" style="text-transform:none !important; margin-bottom: 2px !important;">
+                                        비슷한 수준으로 시행되기까지에는 지역차와 시간차가 있다는 점을 주목하고
+                                    </p>
+                                    <p class="superstring_p superstring_web superstring-noto-light" style="text-transform:none !important; margin-bottom: 2px !important;">
+                                        사업적으로 전망이 밝을 뿐 아니라 국가경쟁력과도 직결되는 Creative Education분야의 국내 선도기업이 될 것입니다.
+                                    </p>
+                                    <p class="superstring-mobile superstring_p superstring-noto-light" style="text-transform:none !important">
+                                        "Creative Education"분야는 은석훈 대표가 슈퍼스트링 창립전부터 운영해오던 사업분야입니다.
+                                        선진국에서 일어나고 있는 교육 패러다임 전환이 국내로 들어와
+                                        비슷한 수준으로 시행되기까지에는 지역차와 시간차가 있다는 점을 주목하고
+                                        사업적으로 전망이 밝을 뿐 아니라 국가경쟁력과도 직결되는 Creative Education분야의 국내 선도기업이 될 것입니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- 이사 김영빈 -->
+<section class="page-section superstring-section">
+    <div class="container relative">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 align-center">
+                <div class="section-title superstring-title superstring-meet-our-team-title superstring-lato-regular">
+                    MEET OUR TEAM
+                </div>
+                <img src="/Lib/superstring/images/superstring/line_gray_green.png" />
+            </div>
+        </div>
+        <div>
+            <div class="team-grid">
+                <div class="team-item animate-init" data-anim-type="fade-in" data-anim-delay="200" style="margin-top: 62px;">
+                    <div class="team-item-image">
+                        <img src="/Lib/superstring/images/superstring/photo_ce.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 pt-20 pb-20 pt-sm-0 animate-init align-center" data-anim-type="fade-in-left-big" data-anim-delay="100">
+                <div class="text">
+                    <h3 class="uppercase">
+                        <span style="font-size:18px;" class="superstring-noto-bold">김영빈 이사</span>
+                        <span style="font-size:18px;" class="superstring-noto-medium">(총괄) / 이스라엘 텔아비브 거주</span>
+                    </h3>
+                    <p class="superstring_p_margin_bottom superstring-noto-light" style="font-size:16px;">
+                        "변화하는 세상에 꼭 필요한 인재를 키워내는 교육컨텐츠를 발굴, 제공하겠습니다."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

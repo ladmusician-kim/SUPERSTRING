@@ -1,0 +1,162 @@
+﻿@media only screen and (max-width: 600px) {
+    .superstring_main_header {
+        font-size: 27px !important;
+    }
+
+    .superstring_h_main_header {
+        font-size: 27px !important;
+    }
+
+    .superstring_h_main_content {
+        font-size: 14px !important;
+    }
+
+    .superstring-main-logo {
+        margin-left: 10px !important;
+        margin-top: 16px !important;
+        max-width: 75% !important;
+    }
+
+    .superstring-clab-body {
+        padding-top: 40px !important;
+    }
+
+    .superstring-ceo {
+        text-align: center !important;
+    }
+
+    .superstring_p {
+        font-size: 14px !important;
+    }
+
+    .inner-nav ul li.active a {
+        border-bottom: none !important;
+    }
+
+    .superstring_p_mobile {
+        font-size: 12px !important;
+    }
+
+    .superstring-ce-title {
+        font-size: 15px !important;
+    }
+
+    .super-string-contact-icon {
+        margin-top: 2em !important;
+        margin-bottom: 15px !important;
+    }
+
+    .superstring-mobile-footer-title {
+        font-weight: bold;
+    }
+
+    .superstring-mobile-footer-content {
+        font-weight: 100 !important;
+        text-transform: lowercase;
+    }
+
+    .superstring-mobile-footer-img {
+        margin-right: 28px;
+    }
+
+    .superstring-main-logo {
+        margin-top: 16px;
+    }
+
+    .superstring-title {
+        font-size: 20px !important;
+    }
+
+    .superstring-line {
+        width: 75% !important;
+    }
+
+    .superstring-member-name {
+        font-size: 18px !important;
+    }
+
+    .superstring-mobile-footer-img {
+        width: 30% !important;
+    }
+
+    .superstring-mobile-footer-img-daegu {
+        width: 35% !important;
+        margin-top: 2px !important;
+    }
+
+    .fixed-height-medium {
+        min-height: 310px !important;
+    }
+
+    .section-h-title {
+        font-size: 22px !important;
+    }
+
+    .superstring-member {
+        width: 50% !important;
+    }
+
+    .superstring-member-title {
+        font-size: 16px !important;
+    }
+
+    .superstring-member-content {
+        font-size: 14px !important;
+    }
+
+    .superstring-h-name {
+        margin-bottom: 0px !important;
+    }
+
+    .superstring-main-logo {
+        width: 65% !important;
+    }
+
+    .superstring-member-layout-top {
+        display: inline-block;
+        width: 270px;
+        margin: 33px 0px 0px 1px !important;
+        position: relative;
+        font-size: 14px;
+        word-spacing: normal;
+        text-align: center;
+        cursor: default;
+    }
+    .superstring-member-layout {
+        display: inline-block;
+        width: 270px;
+        margin: 10px 0px 0px 1px !important;
+        position: relative;
+        font-size: 14px;
+        word-spacing: normal;
+        text-align: center;
+        cursor: default;
+    }
+
+    .superstring-section {
+        padding-top: 62px !important;
+        padding-bottom: 40px !important;
+    }
+    .superstring-h-titles {
+        font-size: 22px !important;
+    }
+    .superstring_p_contact {
+        margin-bottom: 0px !important;
+        font-size: 14px !important;
+    }
+}
+
+/*iPhone 5 작은거*/ 
+@media screen and (device-aspect-ratio: 2/3) {
+    .superstring_main_header {
+        font-size: 24px !important;
+    }
+}
+
+/*iPhone 5 */
+@media screen and (device-aspect-ratio: 40/71) {
+    .superstring_main_header {
+        font-size: 24px !important;
+    }
+}
+

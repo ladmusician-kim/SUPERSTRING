@@ -1,0 +1,124 @@
+﻿@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+@section Script {
+    <script type="text/javascript">
+        $($('.superstring-menu-home ')[0]).attr("class", "superstring-menu-home");
+        $($('.superstring-menu-h')[0]).attr("class", "superstring-menu-h active");
+        $($('.superstring-menu-hotdiamond')[0]).attr("class", "superstring-menu-hotdiamond ");
+        $($('.superstring-menu-ce')[0]).attr("class", "superstring-menu-ce ");
+        $($('.superstring-menu-contact')[0]).attr("class", "superstring-menu-contact ");
+    </script>
+}
+
+<!-- full screen home -->
+<div class="home-section fullwidth-slider owl-carousel bg-dark" id="home">
+    <section class="home-section fixed-height-medium bg-scroll" data-background="/Lib/superstring/images/superstring/bg_h.png">
+        <div class="js-height-parent" id="h">
+            <div class="home-content container">
+                <div class="home-text" style="padding-top: 86px">
+                    <div class="row align-center">
+                        <div class="col-sm-12 align-center">
+                            <div class="align-center animate-init" data-anim-type="fade-in-up" data-anim-delay="200">
+                                <div class="hs-line-7 mb-0 superstring_h_main_header superstring-lato-bold">
+                                    H
+                                </div>
+                                <div class="hs-line-10 transparent mb-40 mb-xs-20">
+                                    <p class="superstring-web superstring_h_main_content superstring-noto-light">
+                                        "H"는 슈퍼스트림의 특허 기반으로 2015년 4월 서비스 런칭을 준비 중인 하이브리드 모바일월렛 서비스입니다.
+                                    </p>
+                                    <p class="superstring-web superstring_h_main_content superstring-noto-light">
+                                        "H"를 통하여 소비자는 "돈을 쓰면서 돈을 버는" 큰 장점을 체험할 수 있습니다.
+                                    </p>
+                                    <p class="superstring-mobile superstring_h_main_content superstring-noto-light">
+                                        "H"는 슈퍼스트림의 특허 기반으로 2015년 4월 서비스 런칭을 준비 중인 하이브리드 모바일월렛 서비스입니다.
+                                        "H"를 통하여 소비자는 "돈을 쓰면서 돈을 버는" 큰 장점을 체험할 수 있습니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- 회사 멤버 소개 -->
+<section class="page-section superstring-section">
+    <div class="container relative">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 align-center">
+                <div class="section-title superstring-title superstring-meet-our-team-title superstring-lato-regular">
+                    MEET OUR TEAM
+                </div>
+                <img src="/Lib/superstring/images/superstring/line_gray_green.png" />
+            </div>
+        </div>
+        <!-- 팀장 강승현 -->
+        <div>
+            <div class="team-grid">
+                <div class="team-item animate-init" data-anim-type="fade-in" data-anim-delay="200" style="margin-top: 62px;">
+                    <div class="team-item-image">
+                        <img src="/Lib/superstring/images/superstring/photo_h.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 pt-20 pb-20 mb-30 pt-sm-0 animate-init align-center" data-anim-type="fade-in-left-big" data-anim-delay="100">
+                <div class="text">
+                    <h3 class="uppercase superstring-noto-medium" style="font-size:18px;">강승현 팀장 (총괄)</h3>
+                    <p class="superstring_p_margin_bottom superstring-noto-light" style="font-size:16px;">
+                        "지금까지 없었던 서비스로 많은 사랑을 받게끔 열심히 준비하고 있습니다."
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-grid">
+            <!-- 윤인규 -->
+            <div class="team-item animate-init" data-anim-type="fade-in" data-anim-delay="100">
+                <div class="team-item-image">
+                    <img src="/Lib/superstring/images/superstring/photo_h_programmer.png" />
+                </div>
+                <div class="team-item-descr">
+                    <div class="team-item-name superstring-h-name superstring-noto-medium">
+                        윤인규
+                    </div>
+                    <div class="team-item-role superstring-h-content superstring-lato-light" style="font-style:normal">
+                        Programmer
+                    </div>
+                </div>
+            </div>
+
+            <!-- 천보경 -->
+            <div class="team-item animate-init" data-anim-type="fade-in" data-anim-delay="200">
+                <div class="team-item-image">
+                    <img src="/Lib/superstring/images/superstring/photo_h_db.png" />
+                </div>
+                <div class="team-item-descr">
+                    <div class="team-item-name superstring-h-name superstring-noto-medium">
+                        천보경
+                    </div>
+                    <div class="team-item-role superstring-h-content superstring-lato-light" style="font-style:normal">
+                        DB-Manager
+                    </div>
+                </div>
+            </div>
+
+            <!-- 석화경 -->
+            <div class="team-item animate-init" data-anim-type="fade-in" data-anim-delay="300">
+                <div class="team-item-image">
+                    <img src="/Lib/superstring/images/superstring/photo_h_designer.png" />
+                </div>
+                <div class="team-item-descr">
+                    <div class="team-item-name superstring-h-name superstring-noto-medium">
+                        석화경
+                    </div>
+                    <div class="team-item-role superstring-h-content superstring-lato-light" style="font-style:normal">
+                        Designer
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

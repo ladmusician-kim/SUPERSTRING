@@ -1,0 +1,16 @@
+﻿@media only screen and (min-width: 600px) {
+    .main-nav {
+        height: 91px !important;
+    }
+
+    .full-wrapper {
+        margin: 0 50px !important;
+    }
+
+    .superstring-main-logo {
+        margin-top: 28px !important;
+    }
+    .superstring-ceo-mobile {
+        padding: 66px !important;
+    }
+}

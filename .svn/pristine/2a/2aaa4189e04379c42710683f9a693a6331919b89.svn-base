@@ -1,0 +1,68 @@
+﻿.superstring_p {
+    margin: 0 !important;
+    margin-bottom: 6px !important;
+    font-size: 16px !important;
+}
+
+.superstring_p_margin_bottom {
+    margin-bottom: 0.25em !important;
+    font-size: 16px !important;
+}
+
+.superstring_main_header {
+    margin-bottom: 1em !important;
+    font-size: 40px !important;
+    text-transform: none !important;
+    letter-spacing:normal;
+}
+.superstring_h_main_header {
+    margin-bottom: 50px !important;
+    font-size: 30px !important;
+    text-transform: none !important;
+    letter-spacing:normal;
+}
+.superstring_h_main_content {
+    margin: 0 !important;
+    margin-bottom: 12px !important;
+    font-size: 18px !important;
+}
+
+.super-string-contact-icon {
+    margin-bottom: 22px !important;
+}
+
+.superstring-menu {
+    font-size: 14px !important;
+}
+.superstring-title {
+    font-size: 24px !important;
+}
+.superstring-section {
+    padding-top: 62px !important;
+    padding-bottom: 62px !important;
+}
+.superstring-history-section {
+    padding-top: 0px !important;
+    padding-bottom: 62px !important;
+}
+.superstring-history-content-body {
+    padding-top: 62px !Important;
+}
+.superstring-member-name {
+    margin-bottom: 25px !important;
+    font-size: 22px !important;
+}
+.superstring-member-content {
+    font-size: 16px !important
+}
+.superstring-meet-our-team-title {
+    margin-bottom: 30px !Important;
+}
+.superstring-h-name {
+    font-size: 16px !important;
+    margin-bottom: 12px !Important;
+}
+.superstring-h-content {
+    font-size: 14px !important;
+}
+

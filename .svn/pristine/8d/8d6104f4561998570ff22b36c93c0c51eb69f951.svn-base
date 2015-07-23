@@ -1,0 +1,45 @@
+﻿@media only screen and (max-width: 600px) {
+    .superstring_main_header {
+        font-size: 2em !important;
+    }
+    .superstring-main-logo {
+        margin-left: 10px !important;
+        margin-top: 16px !important;
+        max-width: 75% !important;
+    }
+    .superstring-clab-body {
+        padding-top: 40px !important;
+    }
+    .superstring-ceo {
+        text-align: center !important;
+    }
+    .superstring_p {
+        font-size: 14px !important;
+    }
+    .inner-nav ul li.active a {
+        border-bottom: none !important;
+    }
+    .superstring_p_mobile {
+        font-size: 13px !important;
+    }
+    .superstring-ce-title {
+        font-size: 15px !important;
+    }
+    .super-string-contact-icon {
+        margin-top: 2em !important;
+        margin-bottom: 2em !important;
+    }
+    .superstring-mobile-footer-title {
+        font-weight: bold;
+    }
+    .superstring-mobile-footer-content {
+        font-weight: 100 !important;
+        text-transform: lowercase;
+    }
+    .superstring-mobile-footer-img {
+        margin-right: 28px;
+    }
+    .superstring-main-logo {
+        margin-top: 16px;
+    }
+}

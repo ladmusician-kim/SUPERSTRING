@@ -1,0 +1,54 @@
+﻿@media only screen and (min-width: 600px) {
+    .main-nav {
+        height: 91px !important;
+    }
+
+    .full-wrapper {
+        margin: 0 50px !important;
+    }
+
+    .superstring-main-logo {
+        margin-top: 28px !important;
+    }
+
+    .superstring-ceo-mobile {
+        padding: 66px !important;
+    }
+
+    .superstring-member-title {
+        font-size: 18px !important;
+    }
+
+    .superstring-member-content {
+        font-size: 16px !important;
+    }
+
+    .superstring-member-layout-top {
+        display: inline-block;
+        width: 270px;
+        margin: 20px 0 0 1px;
+        position: relative;
+        font-size: 14px;
+        word-spacing: normal;
+        text-align: center;
+        cursor: default;
+    }
+    .superstring-member-layout {
+        display: inline-block;
+        width: 270px;
+        margin: 20px 0 0 1px;
+        position: relative;
+        font-size: 14px;
+        word-spacing: normal;
+        text-align: center;
+        cursor: default;
+    }
+    .superstring-section {
+        padding-top: 62px !important;
+        padding-bottom: 62px !important;
+    }
+    .superstring_p_contact {
+        margin-bottom: 0px !important;
+        font-size: 16px !important;
+    }
+}

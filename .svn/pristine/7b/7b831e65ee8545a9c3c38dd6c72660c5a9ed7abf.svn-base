@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Superstring</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="utf-8">
+    <meta name="author" content="Roman Kirichik">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/Lib/superstring/image/superstring/logo.png">
+    <link rel="apple-touch-icon" href="/Lib/superstring/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Lib/superstring/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Lib/superstring/images/apple-touch-icon-114x114.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/Lib/superstring/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Lib/superstring/css/style.css">
+    <link rel="stylesheet" href="/Lib/superstring/css/style-responsive.css">
+
+    <link rel="stylesheet" href="/Lib/superstring/css/animate.css">
+    <link rel="stylesheet" href="/Lib/superstring/css/animations.min.css">
+    <link rel="stylesheet" href="/Lib/superstring/css/vertical-rhythm.min.css">
+    <link rel="stylesheet" href="/Lib/superstring/css/owl.carousel.css">
+    <link rel="stylesheet" href="/Lib/superstring/css/magnific-popup.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans:100,300,400,500,700,900|Lato:100,300,400,900' rel='stylesheet' type='text/css'>
+
+    <link href="/Lib/superstring/css/superstring/font.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/Lib/superstring/css/colors/black.css">
+    <link href="/Lib/superstring/css/superstring/common.css" rel="stylesheet" />
+    <link href="/Lib/superstring/css/superstring/theme.css" rel="stylesheet" />
+    <link href="/Lib/superstring/css/superstring/web.css" rel="stylesheet" />
+    <link href="/Lib/superstring/css/superstring/mobile.css" rel="stylesheet" />
+</head>
+<body class="appear-animate">
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <b class="spinner">Loading...</b>
+    </div>
+    <!-- End Page Loader -->
+
+    <!-- Page Wrap -->
+    <div class="page" id="top">
+        <!-- Navigation panel -->
+        <nav class="main-nav js-stick stick-fixed">
+            <div class="full-wrapper relative clearfix">
+                <div class="nav-logo-wrap local-scroll">
+                    <a href="go-qual.co.kr/superstring/home.php">
+                        <img class="mt-10 superstring-main-logo" src="/Lib/superstring/images/superstring/logo_superstring_main.png" />
+                    </a>
+                </div>
+                <div class="mobile-nav"><i class="fa fa-bars"></i></div>
+                <!-- Main Menu -->
+                <div class="inner-nav desktop-nav">
+                    @*<ul class="clearlist scroll-nav local-scroll">
+                        <li class="superstring-menu-home"><a href="/Home/Index">Home</a></li>
+                        <li class="superstring-menu-h"><a href="/Home/H">H</a></li>
+                        <li class="superstring-menu-hotdiamond"><a href="/Home/DIAMOND">HOT DIAMOND</a></li>
+                        <li class="superstring-menu-ce"><a href="/Home/CE">CE</a></li>
+                        <li class="superstring-menu-contact"><a href="/Home/CONTACT">CONTACT</a></li>
+                    </ul>*@
+                    <ul class="clearlist scroll-nav local-scroll">
+                        <li class="superstring-menu-home"><a class="superstring-menu superstring-lato-regular" href="/superstring/home.php">Home</a></li>
+                        <li class="superstring-menu-h"><a class="superstring-menu superstring-lato-regular" href="/superstring/h.php">H</a></li>
+                        <li class="superstring-menu-hotdiamond"><a class="superstring-menu superstring-lato-regular" href="/superstring/hotdiamond.php">HOT DIAMOND</a></li>
+                        <li class="superstring-menu-ce "><a class="superstring-menu superstring-lato-regular" href="/superstring/ce.php">CE</a></li>
+                        <li class="superstring-menu-contact"><a class="superstring-menu superstring-lato-regular" href="/superstring/contact.php">CONTACT</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        @RenderBody()
+
+        <!-- Bottom menu -->
+        <div class="bot-menu local-scroll">
+            <a href="#top" class="bot-menu-item animate-init" data-anim-type="fade-in-left" data-anim-delay="0">
+                <span class="bot-menu-icon">
+                    <i class="fa fa-arrow-circle-o-up"></i>
+                </span>
+                Scroll Up
+            </a>
+        </div>
+
+        <!-- Footer -->
+        <footer class="small-section bg-dark footer superstring-web-footer">
+            <div class="row">
+                <div class="col-md-8 col-lg-offset-1 relative">
+                    <div class="align-left mb-10">
+                        <span class="footer-title superstring-noto-bold">주소 : </span>
+                        <span class="footer-text superstring-noto-light">대구 동구 동대구로 489 무역회관 13층 삼성 C-Lab</span>
+                    </div>
+                    <div class="align-left">
+                        <span class="footer-title superstring-noto-bold">대표전화 : </span>
+                        <span class="footer-text superstring-noto-light">053) 754 - 1207 </span>
+                        <span class="footer-title superstring-noto-bold">이메일: </span>
+                        <span class="footer-text superstring-noto-light">은석훈 대표 hellosukhoon@gmail.com</span>
+                    </div>
+                </div>
+                <div class="col-md-3 relative col-rg-offset-1">
+                    <div class="align-left">
+                        <img class="footer-logo" src="/Lib/superstring/images/superstring/logo_bottom_superstring.png" />
+                        <img class="footer-logo" style="margin-left: 2em;" src="/Lib/superstring/images/superstring/logo_bottom_daegu.png" />
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <footer class="small-section bg-dark footer superstring-mobile-footer">
+            <div class="container" data-anim-type="bounce-in-up" data-anim-delay="0">
+                <div class="footer-text">
+                    <div class="footer-copy">
+                        <div>
+                            <span class="superstring-mobile-footer-title superstring-noto-bold">주소:</span>
+                            <span class="superstring-mobile-footer-content superstring-noto-light">대구 동구 동대구로 487 무역회관: 13층 삼성 C-Lab</span>
+                        </div>
+                        <div>
+                            <span class="superstring-mobile-footer-title superstring-noto-medium">이메일:</span>
+                            <span class="superstring-mobile-footer-content superstring-noto-light">은석훈 대표 hellosukhoon@gmail.com</span>
+                        </div>
+                        <div>
+                            <span class="superstring-mobile-footer-title superstring-noto-medium">대표전화:</span>
+                            <span class="superstring-mobile-footer-content superstring-noto-light">053) 754-1207</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-social-links">
+                    <div class="social-links tooltip-bot" data-original-title="" title="">
+                        <img class="superstring-mobile-footer-img" src="/Lib/superstring/images/superstring/logo_bottom_superstring.png" />
+                        <img class="superstring-mobile-footer-img-daegu" src="/Lib/superstring/images/superstring/logo_bottom_daegu.png" />
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JS -->
+    <script type="text/javascript" src="/Lib/superstring/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/jquery.localScroll.min.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/jquery.ba-hashchange.min.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/jquery.viewport.mini.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/jquery.countTo.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/jquery.appear.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/jquery.sticky.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/gmap3.min.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/all.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/contact-form.js"></script>
+    <script type="text/javascript" src="/Lib/superstring/js/animations.min.js"></script>
+    <!--[if lt IE 10]><script type="text/javascript" src="/Lib/superstring/js/placeholder.js"></script><![endif]-->
+    <script type="text/javascript">
+        if ($(window).width() < 700) {
+            $('.superstring-mobile-footer').show();
+            $('.superstring-web-footer').hide();
+
+            $('.superstring-mobile').show();
+            $('.superstring-web').hide();
+            if ($(winodw).width() < 343) {
+                $('.superstring-mobile-footer-img-daegu').attr('margin-top', '10px');
+            }
+        } else {
+            $('.superstring-mobile-footer').hide();
+            $('.superstring-web-footer').show();
+
+            $('.superstring-mobile').hide();
+            $('.superstring-web').show();
+        }
+    </script>
+
+    @RenderSection("Script", false)
+</body>
+</html>

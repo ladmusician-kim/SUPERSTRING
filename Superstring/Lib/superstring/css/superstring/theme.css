@@ -1,0 +1,70 @@
+﻿body {
+    /*font-family: 'NanumGothic','나눔고딕','Malgun Gothic', '맑은 고딕','Helvetica Neue','Apple SD Gothic Neo',AppleGothic,Gulim,'굴림',sans-serif !important;*/
+    font-family: 'Noto Sans','Lato';
+    letter-spacing: 0px !important;
+}
+.main-nav {
+    background: #343434 !important;
+}
+.inner-nav ul li a {
+    height: 74px !important;
+    min-width: 70px;
+}
+
+.inner-nav ul li a:hover {
+    color: #15a184 !important;
+}
+
+.inner-nav ul li.active a {
+    color: #15a184 !important;
+    border-bottom: 2px solid #15a184 !important;
+}
+.mobile-nav:hover, .mobile-nav.active {
+    background: #0b0b0b !important;
+}
+
+.mobile-on .desktop-nav ul li a:hover {
+    color: #15a184 !important;
+}
+.mobile-nav .fa {
+    color: #15a184 !important;
+}
+
+.mobile-nav {
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.footer-title {
+    font-size: 13px !important;
+}
+
+.footer-text {
+    font-size: 12px !important;
+}
+
+.footer-logo {
+    width: 35% !important;
+}
+
+.sticky-wrapper {
+    background: #0b0b0b !important;
+}
+.fixed-height-medium {
+    min-height: 390px !important;
+}
+/*.team-item-descr {
+    padding-top: 20px !important;
+} */
+.main-nav {
+    background: #0b0b0b !important;
+}
+.transperency-main-nav {
+    background: none !important;
+}
+.footer {
+    background: #0b0b0b !important;
+}
+.bot-menu {
+       background: #000000 !important;
+}
